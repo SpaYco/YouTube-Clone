@@ -1,26 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    position: sticky;
+    margin: 8px 8px 25px 8px;
+    
 }
 #logo {
     width: auto;
     height: auto;
-    margin-right: 25%;
 }
 #logo > img {
     max-width: 100px;
     max-height: 100%;
 }
-#rightMenu {
-    margin-left: 20%;
-}
-#rightMenu > a > img{
+.menu{
     opacity: 0.5;
 }
 #search {
@@ -29,7 +30,6 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
 }
 #search > * {
     margin: 0;
@@ -47,17 +47,45 @@ nav {
     align-content: center;
     justify-content: center;
 }
+#search > button:hover {
+    background-color: #dfdfdf;
+}
 #search > button > svg{
     max-width: 20px;
     max-height: 20px;
     opacity: 0.5;
     
 }
-#video {
-  
+#rightMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    right: 0;
+
+}
+#rightMenu > *{
+    margin-left: 10px;
 }
 
-#myVideo {
-    ;
+#signIn {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 2px;
+    padding: 3px 7px 3px 7px;
+    text-decoration: none;
+}
+#face {
+    opacity: 1.0;
+}
 
+
+
+#myVideo {
+    max-width: calc(100vh - (56px + 24px + 136px) * (16 / 9));
+    min-width: calc(360px * (16 / 9));
+    max-height: calc(360px * (16 / 9));
+    min-height: 360px;
 }
