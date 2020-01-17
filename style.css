@@ -9,10 +9,16 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
-    margin: 8px 8px 25px 8px;
-    
+    position: fixed;
+    padding: 8px 8px 8px 8px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
 }
+
 #logo {
     width: auto;
     height: auto;
@@ -82,10 +88,56 @@ nav {
 }
 
 
+#myVideo{
+    height:600px;
+    width:90%;
+    margin-left: 13%;
+}
+main {
+    margin-top: 60px;
+    display: grid;
+    margin-left: 2%;
+    
+    
+}
 
-#myVideo {
-    max-width: calc(100vh - (56px + 24px + 136px) * (16 / 9));
-    min-width: calc(360px * (16 / 9));
-    max-height: calc(360px * (16 / 9));
-    min-height: 360px;
+#leftSide {
+  grid-column-start: 1;
+  grid-column-end: 7;
+
+}
+#rightSide{
+    grid-column-start: 7;
+    grid-column-end: 9; 
+}
+.aSideVideos > img {
+    height: 140.63px;
+    width:250px;
+}
+.aSideVideos  {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    
+} 
+.parOfAsideVideos  {
+    margin-left: 15px;
+
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+
+    
+}
+.channel{
+    color:grey;
+}
+
+.views{
+    
+    color: grey;
 }
