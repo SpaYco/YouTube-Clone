@@ -227,21 +227,45 @@ main {
 #profilePicture{
     grid-column-start: 1;
     grid-column-end: 2;
+    position: absolute;
+    border-radius: 50%;
+    
 }
 #username{
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    margin-left: 35px;
+    margin-top: 10px;
+    
+
 }
 #subscribers{
     grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    margin-left: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    
 }
 #subscribe{
     grid-column-start: 25;
-    grid-column-end: 27;
+    grid-column-end: 26;
+    background-color: #c00;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5%;
+    text-decoration: none;
+    padding: 7px 13px 7px 13px;
+    margin: -15px 0px 0px 0px;
+    display: inline;
+    text-align: center;
+    position: relative;
+    
 
+}
+#descDetail{
+    margin-left: 52px;
+    font-size: 14px;
+    font-weight: 400;
 }
