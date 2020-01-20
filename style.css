@@ -80,14 +80,19 @@ nav {
 #signIn {
     display: flex;
     flex-direction: row;
-    border: 1px solid blue;
-    color: blue;
+    border: 1px solid rgb(6, 95, 212);
+    color: rgb(6, 95, 212);
     border-radius: 2px;
     padding: 3px 7px 3px 7px;
     text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
 }
 #face {
     opacity: 1.0;
+    height:20px;
+    width: 20px;
+    margin-right: 5px;
 }
 
 
@@ -228,21 +233,22 @@ main {
     grid-column-start: 1;
     grid-column-end: 2;
     position: absolute;
+    margin-top: 3px;
+}
+#profilePicture > img {
     border-radius: 50%;
-    
 }
 #username{
     grid-column-start: 2;
     grid-column-end: 4;
-    margin-left: 35px;
+    margin-left: 24%;
     margin-top: 10px;
-    
-
+    color: black;
 }
 #subscribers{
     grid-column-start: 2;
     grid-column-end: 4;
-    margin-left: 35px;
+    margin-left: 24%;
     font-size: 14px;
     font-weight: 400;
     
@@ -265,7 +271,35 @@ main {
 
 }
 #descDetail{
-    margin-left: 52px;
+    margin-left: 7.5%;
     font-size: 14px;
     font-weight: 400;
+}
+#descDetail a {
+    color: #065fd4;
+}
+@media only screen and (max-width: 950px){
+    #leftSide {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    #rightSide {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 10;
+    }
+    #signIn{
+        font-size: 12px;
+        text-align: right;
+        margin: 0;
+    }
+    #face {
+        display: none;
+    }
+    #search > input {
+        width: 79%;
+    }
 }
