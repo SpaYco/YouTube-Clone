@@ -278,7 +278,7 @@ main {
 #descDetail a {
     color: #065fd4;
 }
-@media only screen and (max-width: 950px){
+@media all and (max-width: 950px){
     #leftSide {
         grid-column-start: 1;
         grid-column-end: 4;
