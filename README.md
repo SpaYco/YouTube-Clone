@@ -2,7 +2,7 @@
 
 > YouTube Video Page clone.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./webDemo.png)
 
 This Is Clone of the YouTube Video Page.
 
