@@ -2,7 +2,7 @@
 
 > YouTube Video Page clone.
 
-![screenshot](./webDemo.png)
+![screenshot](./webDemoFinal.png)
 
 This Is Clone of the YouTube Video Page.
 
@@ -13,7 +13,7 @@ This Is Clone of the YouTube Video Page.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Spayco/YouTube-Clone/9fa75b3b54bf86fda205d2f85b7abf981a9e6bb2/index.html)
+[Live Demo Link](https://raw.githack.com/Spayco/YouTube-Clone/beta-version/index.html)
 
 
 ### Usage

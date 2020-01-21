@@ -245,13 +245,9 @@ button {
 #profilePicture > img {
     border-radius: 50%;
 }
-/*#username {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    margin-left: 24%;
-    margin-top: 10px;
-    color: black;
-}*/
+#username {
+    margin-top: 12px;
+}
 #subscribers,
 #username {
     grid-column-start: 2;
@@ -285,6 +281,7 @@ button {
 #descDetail a {
     color: #065fd4;
 }
+/* Mobile View */
 @media all and (max-width: 950px) {
     #leftSide {
         grid-column-start: 1;
@@ -325,7 +322,4 @@ button {
         grid-column-end: 6;
         margin: 0;
     }
-     #username {
-         margin-top: 12px;
-     }
 }
